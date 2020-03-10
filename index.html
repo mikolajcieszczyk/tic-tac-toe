@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tic Tac Toe</title>
+
+    <!-- OWN STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+	<!-- BOOTSTRAP AND JQUERY LIB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- OWN JS/JQUERY CODE -->
+	<script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3 d-flex justify-content-center">
+            <div class='logo-container'>
+                <h2 class='logo-item text-center'>TIC-TAC-TOE <small><span CLASS="logo-span">GAME</span></small></h2>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-sm-12 col-md-6">
+                <div class="row mx-1">
+                    <div class="col-4 square sq1">
+                    </div>
+                    <div class="col-4 square sq2">
+                    </div>
+                    <div class="col-4 square sq3">
+                    </div>
+                </div>
+                <div class="row mx-1">
+                    <div class="col-4 square sq4">
+                    </div>
+                    <div class="col-4 square sq5">
+                    </div>
+                    <div class="col-4 square sq6">
+                    </div>
+                </div>
+                <div class="row mx-1">
+                    <div class="col-4 square sq7">
+                    </div>
+                    <div class="col-4 square sq8">
+                    </div>
+                    <div class="col-4 square sq9">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center text-center which-player"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center game-end"></div>
+                    <div class="col-12 text-center winner"></div>
+                </div>
+                <div class="row mt-5 text-center">
+                    <div class="col-12 one-more-time">One more time?</div>
+                    <div class="col-12 mb-5 mt-2">
+                        <button class="reset-btn">Click here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal show" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Welcome in Tic-Tac-Toe GAME!</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="name-form">
+                        Player one name:
+                        <input type="text" name="name" id="name"><br>
+                        Player two name:
+                        <input type="text" name="name1" id="name1"><br>
+                        <input type="button" id="submit-id" value="SUBMIT" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

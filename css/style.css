@@ -1,0 +1,167 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+body {
+    color: #edc7b7 !important;
+    background-color: #201e1f !important;
+    background-image: -o-linear-gradient(40deg, #e86523 40%, #BA5700 50%, #201e1f 60%);
+    background-image: linear-gradient(50deg, #e86523 40%, #BA5700 50%, #201e1f 60%);
+    background-attachment: fixed;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.logo-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.logo-item {
+    letter-spacing: 5px;
+    border: 4px double #fff;
+    border-width: 4px 0;
+    padding: 5px;
+}
+
+.logo-span {
+    color: #e86523;
+}
+
+.logo-span:hover {
+    color: #edc7b7;
+}
+
+.col-4 {
+    height: 120px;
+    background: #363636;
+    border: 1px solid #e86523;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.which-player {
+    background: -o-linear-gradient(left, #edc7b7 20%, #e86523 30%, #e86523 70%, #edc7b7 80%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(20%, #edc7b7), color-stop(30%, #e86523), color-stop(70%, #e86523), color-stop(80%, #edc7b7));
+    background: linear-gradient(to right, #edc7b7 20%, #e86523 30%, #e86523 70%, #edc7b7 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    -webkit-animation: textShine 7s ease-in-out infinite alternate;
+    animation: textShine 7s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes textShine {
+    to {
+        background-position: 200%;
+    }
+}
+
+@keyframes textShine {
+    to {
+        background-position: 200%;
+    }
+}
+
+.winner {
+    display: none;
+}
+
+.one-more-time {
+    display: none;
+    font-size: 200%;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.reset-btn {
+    display: none;
+}
+
+.game-end {
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.make-things-bigger {
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.text-animation {
+    -webkit-animation: title-animation 2s ease 0s infinite normal;
+            animation: title-animation 2s ease 0s infinite normal;
+}
+
+.playground-disable {
+    pointer-events: none;
+}
+
+.out-of-display {
+    display: none;
+}
+
+.zero-opacity {
+    opacity: 0;
+}
+
+.modal-header {
+    background: #e86523;
+    color: #000;
+}
+
+.modal-title {
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px 2px 8px #000;
+}
+
+.modal-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    color: #000;
+}
+
+#name,
+#name1 {
+    background: #e86523;
+}
+
+#submit-id {
+    width: 100%;
+
+    margin-top: 2%;
+
+    color: white;
+    text-shadow: 1px 2px 8px #000;
+
+    background: #e86523;
+}
+
+.btn {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+ @media only screen and (max-width: 768px) {
+    .which-player {
+        background-color: #201e1f !important;
+        background-image: none;
+    }
+} 
